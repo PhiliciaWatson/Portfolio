@@ -395,3 +395,12 @@ a:hover, a:focus, a:active {
   }
 
 }
+
+#skills-img{
+
+  border-radius:100px;
+  height:20vh;
+  width:20vh;
+  margin-top:10px;
+
+}
