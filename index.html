@@ -7,9 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
   <title>Stylish Portfolio - Start Bootstrap Template</title>
-
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,10 +37,13 @@
         <a class="js-scroll-trigger" href="#page-top">Home</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
+        <a class="js-scroll-trigger" href="#education">Education</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
+        <a class="js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#Resume">Resume</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -53,15 +55,13 @@
   </nav>
 
   <!-- Header -->
-  <header id="header" class=" masthead d-flex">
+  <header id="header" class ="masthead d-flex">
     <div class="container text-center my-auto">
       <div class="col align-items-center ">
           <img src="img/photo.jpg" id="my-pic"> <!--Your photo here-->
           <h3 class="mb-1" style="position:relative;font-size:50px;color:#fbde44ff;bottom:28px;font-family:'Abril Fatface', cursive;">
             <u>Philicia Watson</u></h3> <!--Quote in the p tag-->
-            <h4><em class="text-light">Cincinnati,OH * philiciawatson7@gmail.com</em></h4> 
-            <a href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" target="_blank"><img src="img/iconfinder_Linkedin_social_media_logo_1964405.png"></a>
-        <a href="https://github.com/PhiliciaWatson" target="_blank"><img src="img/iconfinder_Github_social_media_logo_1964417.png"></a>  
+            <h4><em class="text-light">Cincinnati,OH &#8226; philiciawatson7@gmail.com</em></h4> 
             <p class="text-dark card" style="font-size:20px"><em>"I know I am not the best but I will still strive to become my best self." |</em></p>
       </div>     
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
@@ -69,9 +69,12 @@
     <div class="overlay"></div>
   </header>
 
-  <!-- About -->
-  <section class="content-section bg-dark" id="about">
+  <!-- Education -->
+  <section class="content-section bg-dark" id="education">
     <div class="container">
+      <div class="content-section-heading">
+        <h2 class="mb-5 text-center"id="headings">Education |</h2>
+      </div>
       <div class="col">
       <div class="card w-100 m-2 p-2" style="background-color:#E76F51;">
         <div class="card-body">
@@ -89,57 +92,71 @@
       </div>
     </div>
     </div>
-    <div class="container text-center">
+    <!-- <div class="container text-center">
         <a class="btn btn-xl js-scroll-trigger" href="#services" style="background-color: #E9C46A;">What We Offer</a>
-      </div>
+      </div> -->
   </section>
 
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <!-- Skills -->
+  <section class="content-section text-white text-center" id="skills" style="background-color:#2a9d8f; color:#e76f51;">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
+        <h2 class="mb-5" id="headings">Skills |</h2>
       </div>
       <div class="row d-flex flex-wrap">
         <div class="col-sm">
-          <img src="img/iconfinder_bootstrap_icon_291791.png" id="skills-img">
+          <img src="img/iconfinder_bootstrap_icon_291791 (1).png" id="skills-img">
+          <em>Bootstrap</em>
         </div>
         <div class="col-sm">
           <img src="img/iconfinder_node_3069651.png" id="skills-img">
+          <p><em>Node.JS</em></p>
         </div>
         <div class="col-sm">
           <img src="img/iconfinder_code-programming-javascript-software-develop-command-language_652581.png" id="skills-img">
+          <p><em>Javascript</em></p>
         </div>
         <div class="col-sm">
-          <img src="img/iconfinder__html_five_2559808.png">
+          <img src="img/iconfinder_Neon_Line_Social_Circles_50Icon_10px_grid-48_657761.png" id="skills-img">
+          <p><em>Github</em></p>
         </div>
         <div class="col-sm">
           <img src="img/iconfinder_css-3_4961937.png" id="skills-img">
+          <p><em>CSS</em></p>
         </div>
         <div class="col-sm">
           <img src="img/iconfinder_29_940962.png" id="skills-img">
+          <p><em>Github</em></p>
+        </div>
+        <div class="col-sm">
+          <img src="img/iconfinder_Social_Media_vs_code_visual_studio_code_7417366.png" id="skills-img">
+          <p><em>VS Code</em></p>
+        </div>
+        <div class="col-sm">
+          <img src="img/iconfinder_React.js_logo_1174949.png" id="skills-img">
+          <p><em>React</em></p>
+        </div>
+        <div class="col-sm">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" id="skills-img">
+          <p><em>Photoshop</em></p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Callout -->
-  <section class="callout">
+  <section class="callout" id="Resume">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
+      <h2 class="mx-auto mb-5">Resume will be here</h2>
       <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
     </div>
   </section>
 
   <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+  <section class="content-section" id="portfolio" style="background-color:#f4a261;">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+        <h2 class="mb-5" id="headings">Recent Projects |</h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
@@ -190,23 +207,23 @@
     </div>
   </section>
 
-  <!-- Call to Action -->
+  <!-- Call to Action
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a>
     </div>
-  </section>
+  </section> -->
 
-  <!-- Map -->
+  <!-- Map
   <div id="contact" class="map">
     <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
     <small>
       <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
     </small>
-  </div>
+  </div> -->
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -223,9 +240,12 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#!">
+          <a class="social-link rounded-circle text-white" href="https://github.com/PhiliciaWatson">
             <i class="icon-social-github"></i>
           </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" target="_blank"><img src="img/iconfinder_Linkedin_social_media_logo_1964405.png"></a>
         </li>
       </ul>
       <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>

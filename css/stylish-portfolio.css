@@ -401,6 +401,12 @@ a:hover, a:focus, a:active {
   border-radius:100px;
   height:20vh;
   width:20vh;
-  margin-top:10px;
+  margin-top:15px;
+}
 
+#headings{
+
+  font-family: 'Zilla Slab Highlight', cursive;
+  color:white;
+  border: black 6px double;
 }
