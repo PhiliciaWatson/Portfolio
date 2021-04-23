@@ -410,3 +410,16 @@ a:hover, a:focus, a:active {
   color:white;
   border: black 6px double;
 }
+
+#links{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color:white;
+  border: black 6px double;
+}
+
+
+#links:hover{
+  color:white;
+  background-color:gold;
+  box-shadow:gold 2px 2px 12px;
+}
